@@ -4,7 +4,7 @@
 import random
 from django.core.management.base import BaseCommand
 from django.contrib.auth import get_user_model
-from alx_travel_app.listings.models import Listing
+from listings.models import Listing
 from faker import Faker
 
 fake = Faker()
